@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Tugas 1 JavaScript Ali Rosi</title>
+    <!-- Ali Rosi NIM 2170231033 -->
+    <style>
+      fieldset {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        background-color: azure;
+        font-family: Verdana;
+      }
+    </style>
+  </head>
+
+  <body>
+    <br /><br />
+    <fieldset>
+      <legend>Konversikan Nilai ANGKA Mu, Menjadi Nilai HURUF</legend>
+      <br />
+      <form method="POST" name="send">
+        <label for="inpt">MASUKAN NILAI ANGKA MU :</label>
+        <input id="inpt" type="number" placeholder="Nilai Angka" name="T1" />
+        <br /><br />
+        <input type="button" value="KONVERSIKAN" name="B1" onclick="test()" />
+        <br /><br />
+        <label>NILAI HURUF MU ADALAH :</label>
+        <input type="text" name="T2" disabled="true" />
+        <input type="reset" />
+      </form>
+    </fieldset>
+    <!-- untuk kode Js nya saya taro di file eksternal  -->
+    <script src="script_tgs1.js"></script>
+  </body>
+</html>
